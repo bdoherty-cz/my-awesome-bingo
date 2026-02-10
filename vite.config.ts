@@ -13,4 +13,17 @@ export default defineConfig({
     setupFiles: ['./src/test/setup.ts'],
     watch: false,
   },
+  server: {
+    host: '0.0.0.0',
+    port: 5173,
+    cors: true,
+    proxy: {
+        "/api": {
+            target: process.env.LOCAL_PROXY_URL || "http://host.docker.internal:8080"
+        }
+    },
+    hmr: {
+      overlay: false
+    }
+  }
 })
