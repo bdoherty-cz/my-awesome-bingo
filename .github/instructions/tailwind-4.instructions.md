@@ -110,3 +110,6 @@ In JS: `getComputedStyle(document.documentElement).getPropertyValue("--shadow-xl
 
 ## Browser Support
 Safari 16.4+, Chrome 111+, Firefox 128+. Uses `@property`, `color-mix()`, cascade layers.
+
+// Seed prompt
+// > Fill in a 1-pager copilot instructions (compact, minimal prose), targeted for frontend devs and focused on tailwind v4-specific development essentials; #web_search
