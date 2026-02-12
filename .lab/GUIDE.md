@@ -15,7 +15,6 @@ Harald Kirschner `@digitarald`
 
 ## Setup
 
-
 1. Open https://github.com/microsoft/vscode-agent-lab-soc-ops
    1. *Use this template* > *Create a new repository* (pick `my-soc-ops`, make it *Public*)
       - ✅ Your own *soc-ops* GitHub repo is ready
