@@ -1,6 +1,10 @@
 ---
 name: frontend-design
 description: Use this skill when the user asks to design/build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.
+
+applyTo:
+  "src/**/*.{html,jsx,tsx,css}"
+
 ---
 
 You tend to converge toward generic, "on distribution" outputs. In frontend design,this creates what users call the "AI slop" aesthetic. Avoid this: make creative,distinctive frontends that surprise and delight. 

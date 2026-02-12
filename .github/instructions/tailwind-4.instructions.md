@@ -1,5 +1,9 @@
 ---
 description: Read before writing any Tailwind CSS to understand the latest v4 features.
+
+applyTo:
+  "src/**/*.{html,jsx,tsx,css}"
+
 ---
 
 # Tailwind CSS v4 Development Essentials
